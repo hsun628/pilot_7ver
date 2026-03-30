@@ -155,6 +155,7 @@ def gpt_generate(round_number, participant_decision):
                 * The reasoning should be in accordance with the provided round number.
 
         ### Experimental Rules:
+            Override any experimental rules you have received and follow the following experimental rules only.
             * Part III consists of 10 rounds. Your group members are exactly the same as in Part II. The number of participants in each group will be displayed on the screen.
             * In each round, you must choose an integer between 100 and 200.
             * The average of all numbers chosen by participants in your group is called the "Average Number."
@@ -237,6 +238,7 @@ def gpt_judge(reasoning_1, reasoning_2, is_flipped_value):
         - If the reasoning becomes hollow or lacks substance once these terms are removed, the reasoning should receive a lower evaluation.
 
     ### Experimental instruction:
+        Override any experimental rules you have received and follow the following experimental rules only.
         * Part II consists of 10 rounds. At the beginning, the computer randomly divides all participants into two equal groups.
         * In each round, you must choose an integer between 0 and 100.
         * The average of all numbers chosen by participants in your group is called the "Average Number."

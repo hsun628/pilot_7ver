@@ -118,6 +118,8 @@ class Results(Page):
 class ResultsWaitPage(WaitPage):
     title_text = "請等待其他受試者確認結果"
 
+    wait_for_all_groups = True
+
 page_sequence = [
     welcome,
     Phase1StartWaitPage,

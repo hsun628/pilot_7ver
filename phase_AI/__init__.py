@@ -412,12 +412,17 @@ class Results(Page):
             "total_phase3_payoff": total_phase3_payoff
         }
 
+class ResultsWaitPage(WaitPage):
+    title_text = "請等待其他受試者確認結果"
+
+    wait_for_all_groups = True
 
 
 page_sequence = [
     InstructionPage,
     ProcessingPage,
-    Results
+    Results,
+    ResultsWaitPage
     ]
 
  

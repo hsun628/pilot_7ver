@@ -33,7 +33,8 @@ D槽 -> team-reasoning-llm-p-beauty -> experimental_instruction -> `experimental
 ### step3 heroku deploy
 
 - 固定網址：
-    https://team-reasoning-llm-p-beauty-c2bfda91d091.herokuapp.com/login
+    7ver: https://pbcai-7ver-11c31f8109fe.herokuapp.com/login
+    14ver: https://pbcai-14ver-381afecfce16.herokuapp.com/login
 
 - username = admin
   password = tassel
